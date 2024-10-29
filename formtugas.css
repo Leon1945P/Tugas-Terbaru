@@ -3,61 +3,56 @@ body {
   background-size: cover;
   font-family: "Times New Roman";
 }
-.container {
+.border {
   width: 50%;
   margin: 50px auto;
   padding: 40px;
   background-color: rgba(194, 105, 33, 0.8);
-  border: 2px dashed white;
+  border: 2px dashed rgb(248, 242, 242);
   border-radius: 15px;
   color: white;
 }
-.container h2 {
+.border h2 {
   text-align: center;
   margin-bottom: 20px;
 }
-.form-group {
+.form {
   margin-bottom: 15px;
 }
-.form-group label {
+.form label {
   display: block;
   margin-bottom: 5px;
 }
-.form-group input[type="text"],
-.form-group input[type="date"],
-.form-group select,
-.form-group textarea {
+.form input[type="text"],
+.form input[type="date"],
+.form select,
+.form textarea {
   width: 100%;
   padding: 10px;
   border: none;
   border-radius: 5px;
 }
-.form-group input[type="radio"],
-.form-group input[type="checkbox"] {
+.form input[type="radio"],
+.form input[type="checkbox"] {
   margin-right: 10px;
 }
-.form-group .gender {
+.form .gender {
   display: flex;
   align-items: center;
 }
-.form-group .gender label {
+.form .gender label {
   margin-right: 20px;
 }
-.form-group .gender input {
+.form .gender input {
   margin-right: 5px;
 }
-.form-group .buttons {
+.form .tombol {
   text-align: center;
 }
-.form-group .buttons input[type="button"] {
+.form .tombol input[type="button"] {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #4caf50;
-  color: white;
   cursor: pointer;
   margin: 0 10px;
-}
-.form-group .buttons input[type="button"]:hover {
-  background-color: #45a049;
 }

@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  background-size: cover;
+  font-family: monospace;
+}
+.jadwal {
+  width: 80%;
+  margin: 50px auto;
+  border: 2px dashed white;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.918);
+  color: white;
+  text-align: center;
+}
+.jadwal h1 {
+  margin: 0;
+  padding: 10px;
+  border-bottom: 2px dashed white;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid white;
+  padding: 10px;
+}
+th {
+  background-color: rgba(12, 12, 12, 0.9);
+}
