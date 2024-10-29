@@ -6,7 +6,7 @@ body {
 .container {
   width: 50%;
   margin: 50px auto;
-  padding: 20px;
+  padding: 40px;
   background-color: rgba(194, 105, 33, 0.8);
   border: 2px dashed white;
   border-radius: 15px;
